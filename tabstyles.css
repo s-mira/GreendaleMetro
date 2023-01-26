@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 50px;
+}
+
+header .logo {
+    font-family: 'Gurmukhi MN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    color: rgba(0, 0, 0, 0.785);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav li {
+    display:inline;
+    margin-inline-start: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Crushed', cursive;
+    font-size: 24px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color:#0000009d;
+    padding: 8px 10px;
+}
+
+header nav li a:hover,
+header nav li a.active {
+    border-radius: 30px;
+    background: #0000009d;
+    color:#fbfbfbc8;
+}
+
+body {
+    height: 100vh;
+    background-image: url('/greencity.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h4 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 00;
+    padding-top: 30px;
+    color: white;
+}
