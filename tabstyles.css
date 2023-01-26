@@ -52,7 +52,7 @@ header nav li a.active {
 
 body {
     height: 100vh;
-    background-image: url('/greencity.jpg');
+    background-image: url('https://s-mira.github.io/GreendaleMetro/images/greencity.jpg');
     background-size: cover;
     background-position: center;
 }
