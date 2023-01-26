@@ -84,7 +84,8 @@ p {
 
 body {
     height: 100vh;
-    background-image: url('/greencity.jpg');
+    background-image: url('https://s-mira.github.io/GreendaleMetro/images/greencity.jpg');
+    background-size: cover;
     background-size: cover;
     background-position: center;
     flex: 1 0 auto;
